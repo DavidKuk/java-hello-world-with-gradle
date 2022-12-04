@@ -17,5 +17,6 @@ jobs:
           distribution: 'adopt'
       - run: |
           gradle --version
-          ./gradlew wrapper --gradle-version 7.6
+          ./gradlew --version
+ #         ./gradlew wrapper --gradle-version 7.6
  #         ./gradlew build --no-daemon --stacktrace
