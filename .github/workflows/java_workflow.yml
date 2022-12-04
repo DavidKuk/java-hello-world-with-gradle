@@ -15,4 +15,4 @@ jobs:
         with:
           java-version: '18'
           distribution: 'adopt'
-      - run: ./gradlew build --no-daemon
+      - run: ./gradlew build --no-daemon --stacktrace
