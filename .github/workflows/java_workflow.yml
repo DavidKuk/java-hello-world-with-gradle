@@ -15,4 +15,6 @@ jobs:
         with:
           java-version: '10'
           distribution: 'adopt'
-      - run: ./gradlew build --no-daemon --stacktrace
+      - run: |
+          gradle -version
+          ./gradlew build --no-daemon --stacktrace
